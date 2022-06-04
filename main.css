@@ -26,7 +26,11 @@ body {
     text-decoration: none;
     font-size: larger;
     font-weight: 700;
-    color: #314E5E
+    color: #1f5470
+}
+.nav ul li a:hover{
+color:black ;
+text-decoration: underline;
 }
 
 .banner {
@@ -69,7 +73,10 @@ body {
     border: solid 3px #314E5E;
     margin-left: 50px;
 }
-
+.trabajos{
+    background-color:#314E5E;
+    
+}
 .section-works {
     max-width: 800px;
     margin: auto;
@@ -89,9 +96,11 @@ body {
 }
 
 .text-works {
-    font-size: 20px;
+    font-size: 30px;
+    margin-top: 50px;
     margin-bottom: 30px;
     font-weight: 600;
+    color: #7FE2EC;
     
     text-decoration-line: underline;
 }
@@ -135,6 +144,7 @@ hr {
     color: #ff6464;
     text-decoration: underline;
 }
+
 
 @media only screen and (max-width:600px) {
 
